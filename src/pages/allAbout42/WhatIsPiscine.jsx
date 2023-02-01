@@ -1,0 +1,65 @@
+import React from 'react'
+
+const WhatIsPiscine = () => {
+    return (
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            {/* <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase sm:text-center">
+          20 Nov 2020
+        </p> */}
+            <div className="max-w-xl mb-5 md:mx-auto sm:text-center lg:max-w-2xl">
+                <div className="mb-4">
+                    <a
+                        href="/"
+                        aria-label="Article"
+                        className="inline-block max-w-lg font-sans text-3xl font-extrabold leading-none tracking-tight text-white transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-4xl"
+                    >
+                        Piscine কী ?
+                    </a>
+                </div>
+                <p className="text-base text-green-700 md:text-lg text-justify">
+                    Piscine <span className='text-red-500'>৪ সপ্তাহের</span> একটা কোডিং বুটক্যাম্প। <span className='text-red-500'>Piscine শব্দটি একটা ফরাসি শব্দ। এর অর্থ সুইমিং পুলে সাঁতার কাঁটা !</span>  সাঁতার শিখতে হলে যেমন আমাদের নাকানিচুবানি খেতে হয় Piscine ঠিক তেমনি।
+                    এই একমাস তোমায় প্রতিদিন গড়ে <span className='text-red-500'>১০-১৪ ঘন্টা</span> কোডিং করতে হবে। মানে তোমার রাত-দিন এক করে কোডিং করতে হবে।
+                    Piscine কেমন হতে পারে এমন ধারণা পেতে চাইলে তুমি YouTube
+                    coding girl  নাম একটা channel আছে। মেয়ে টা রাশিয়ান। এখন রাশিয়ার সব চেয়ে বড় IT কোম্পানি অথবা গুগল এর রাশিয়ান শাখা তে software engineer হিসাবে জব করতেছে। ওই চেনেল এ অনেক কিছু জানতে পারবা।
+                    Piscine কেমন হয়। ৪ টা প্রজেক্ট ৪ সপ্তাহে কমপ্লিট করতে হবে। <span className='text-red-500'>Piscine কিন্তু মোটেও সহজ না। কারণ, পুরো Piscine টাই c programming দিয়ে হবে।</span> c programming কিছুটা কঠিন।
+                    তবে চেষ্টা করলে আর Guide করার মতো কেউ থাকলে কোনো টেনশন নাই। সে জন্য তো আমি আছিই!
+                    একদম জিরো থেকে কোডিং শিখে ৪ টা প্রজেক্ট কমপ্লিট করা , টীম মেম্বার দের সাথে ইংলিশ এ কথা বলা, নিজেদের ভিতর সমন্বয় করে প্রজেক্ট কমপ্লিট করা  কিন্তু মোটেও সহজ কথা না।
+                    <span className='text-yellow-500'> সেই জন্যই আমি শুরু করতে যাচ্ছি Piscine preparation নাম একটা কোর্স।
+                    এই কোর্স তোমাদের কে প্রোগ্রামিং (C programming ) বেসিক শিখানো হবে। তারপর Piscine মতো ১ মাসের একটা কোর্স করানো হবে। কোর্স চলার মধ্যেই এপ্লিকেশন করে ফেলবো।
+                    এক কথায়, application, Game , Piscine থেকে জার্মানি আসা প্রযন্ত সব কিছুতে হেল্প করা হবে। আমার মূল উদ্দেশ্য 42 বাংলাদেশ কমিউনিটি গঠন করা। 
+                    আশা করি, একদিন তোমায় ৪২ পরিবারে দেখতে পাবো।</span>
+                </p>
+            </div>
+            <div className="mb-10 sm:text-center">
+                <a href="/" aria-label="Author" className="inline-block mb-1">
+                    <img
+                        alt="avatar"
+                        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                        className="object-cover w-10 h-10 rounded-full shadow-sm"
+                    />
+                </a>
+                <div>
+                    <a
+                        href="/"
+                        aria-label="Author"
+                        className="font-semibold text-white transition-colors duration-200 hover:text-deep-purple-accent-700"
+                    >
+                        Shamim
+                    </a>
+                    <p className="text-sm font-medium leading-4 text-red-600">Student of 42 Wolfburg, Berlin, Germany<br />From Bangladesh</p>
+                </div>
+            </div>
+            <div className="sm:text-center">
+                <a
+                    href="/"
+                    aria-label=""
+                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                >
+                    Read more
+                </a>
+            </div>
+        </div>
+    );
+};
+
+export default WhatIsPiscine

@@ -107,13 +107,16 @@ export const Navbar = () => {
                             </svg>
                         </button>
                         {isMenuOpen && (
-                            <div class="absolute top-0 left-0 w-full">
+                            <div class="absolute top-0 left-0 w-full" style={{ "z-index": "99" }}>
                                 <div class="p-5 bg-black border rounded shadow-sm">
                                     <div class="flex items-center justify-between mb-4">
                                         <div>
                                             <a href='/'>
                                                 <img style={{ "width": "50px" }} src="https://biolibre.fr/media/cache/articleMainImg/images/articles/school_42.jpeg" alt="42 Banlga" />
                                             </a>
+                                            <span class="ml-2 text-lg font-bold tracking-wide text-green-600 uppercase">
+                                                Info Desk Bangla
+                                            </span>
                                         </div>
                                         <div>
                                             <button
