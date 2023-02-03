@@ -3,6 +3,7 @@ import React from 'react'
 const AdmissionProcess = () => {
     return (
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <h1 className='text-center text-red-500 pb-20' style={{"fontSize":"30px"}}>Admission Process</h1>
             <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
                 <div className="lg:py-6 lg:pr-16">
                     <div className="flex">
@@ -37,7 +38,7 @@ const AdmissionProcess = () => {
                         </div>
                         <div className="pt-1 pb-8">
                             <p className="mb-2 text-lg font-bold text-red-500">Step 1: <span className='text-white'>Tell us who you are!</span></p>
-                            <p className="text-white">
+                            <p className="text-white text-justify">
                                 তোমার নাম, ঠিকানা, ইমেইল, ফোন নাম্বার ইত্যাদি দিয়ে রেজিস্ট্রেশন করে একটা একাউন্ট খুলতে হবে।
                             </p>
                         </div>
@@ -74,7 +75,7 @@ const AdmissionProcess = () => {
                         </div>
                         <div className="pt-1 pb-8">
                             <p className="mb-2 text-lg font-bold text-red-500">Step 2: <span className='text-white'>Terms</span></p>
-                            <p className="text-white">
+                            <p className="text-white text-justify">
                                 42 এর নিয়ম কানুন, শর্তাবলী এবং ডাটা প্রাইভেসি তুমি মেনে চলবে তার স্বীকারোক্তি দিতে হবে।
                             </p>
                         </div>
@@ -111,7 +112,7 @@ const AdmissionProcess = () => {
                         </div>
                         <div className="pt-1 pb-8">
                             <p className="mb-2 text-lg font-bold text-red-500">Step 3: <span className='text-white'>Application - Games</span></p>
-                            <p className="text-white">
+                            <p className="text-white text-justify">
                                 এই ধাপে ২টা Game থাকবে। প্রথম Game টা ৪ মিনিটের। এই Game দিয়ে তোমার স্বরণশক্তি কেমন তা মাপা হবে।
                                 দ্বিতীয় Game টা ২ ঘন্টার। সর্ব মোট ১৭ টা লেবেল থাকবে। এই Game দিয়ে তোমার লজিক বিল্ডিং এবিলিটি মাপা হবে। জানোই তো প্রোগ্রামিং হচ্ছে লজিক এর খেলা!
                             </p>
@@ -149,7 +150,7 @@ const AdmissionProcess = () => {
                         </div>
                         <div className="pt-1 pb-8">
                             <p className="mb-2 text-lg font-bold text-red-500">Step 4: <span className='text-white'>Who are you? + Personal Situation</span></p>
-                            <p className="text-white">
+                            <p className="text-white text-justify">
                                 তুমি কে? তোমার পেশা কি? তোমার অর্থনৈতিক অবস্থা কেমন? তোমার এডুকেশনাল ব্যাকগ্রাউন্ড কি? তুমি কিভাবে 42 কে চিনো? কার কাছে শুনছো? 42 তে পড়তে চাও কেন? তোমার প্রত্যাশা কি?
                                 ভবিষ্যতে কি হতে চাও? তুমি কি 42 পার্টনার কোম্পানি যেমনঃ Google, SAP, BMW, Mercedes, Audi, Porsche, Volkswagen ইত্যাদি কোম্পানি সংস্পর্শে থাকতে চাও? ইত্যাদি প্রশ্নের উত্তর দিতে হবে!
                             </p>
@@ -187,7 +188,7 @@ const AdmissionProcess = () => {
                         </div>
                         <div className="pt-1 pb-8">
                             <p className="mb-2 text-lg font-bold text-red-500">Step 5: <span className='text-white'>Introduction</span></p>
-                            <p className="text-white">
+                            <p className="text-white text-justify">
                                 উপরের 4 টা ধাপ যদি কমপ্লিট করতে পারো তাহলে তোমাকে একটা Google Meet এর লিংক দেওয়া হবে। এটা একটা Introduction ক্লাস।
                                 এই ক্লাসে তোমাদের কে জানানো হবে 42 কি? 42 ইতিহাস। পাশাপাশি তোমাদের কোনো কিছু জানার থাকলে তোমরা প্রশ্ন করতে পারবা।
                                 তোমাদের প্রশ্নের উত্তর দেওয়া হবে। এই ক্লাসে কোনো ভাবেই অনুপস্থিত থাকা যাবে না।
@@ -227,9 +228,9 @@ const AdmissionProcess = () => {
                         </div>
                         <div className="pt-1 pb-8">
                             <p className="mb-2 text-lg font-bold text-red-500">Step 6: <span className='text-white'>Personal information</span></p>
-                            <p className="text-white">
-                                এই ধাপে তোমার আরও  কিছু information দিতে হবে। তাহলে তোমাকে পরের ধাপে নিয়ে যাবে। পরের ধাপটা সবচেয়ে গুরুত্বপূর্ণ। 
-                                এই ধাপে তুমি piscine ব্যাচ পছন্দ করবা। মানে কোন ব্যাচে তুমি তোমার সেই কাংক্ষিত প্রোগ্রামিং journey শুরু করতে চাও। 
+                            <p className="text-white text-justify">
+                                এই ধাপে তোমার আরও  কিছু information দিতে হবে। তাহলে তোমাকে পরের ধাপে নিয়ে যাবে। পরের ধাপটা সবচেয়ে গুরুত্বপূর্ণ।
+                                এই ধাপে তুমি piscine ব্যাচ পছন্দ করবা। মানে কোন ব্যাচে তুমি তোমার সেই কাংক্ষিত প্রোগ্রামিং journey শুরু করতে চাও।
                             </p>
                         </div>
                     </div>
@@ -265,9 +266,9 @@ const AdmissionProcess = () => {
                         </div>
                         <div className="pt-1 pb-8">
                             <p className="mb-2 text-lg font-bold text-red-500">Step 7: <span className='text-white'>Piscine</span></p>
-                            <p className="text-white">
-                            এই ধাপে তোমাকে available Piscine ব্যাচ গুলা দেখানো হবে। তুমি তোমার সুবিধা মতো যেকোনো একটা ব্যাচ পছন্দ করবা। অতঃপর ৪২ থেকে তোমাকে একটা রোল নম্বর দেওয়া হবে। 
-                            তুমি যদি সরাসরি জার্মানিতে on-site piscine করতে চাও তাহলে এই রোল বা টোকেনটা দেখিয়ে তোমাকে নিশ্চিত করতে হবে তুমি continue করবা। তারপর আর কি piscine শুরু! 
+                            <p className="text-white text-justify">
+                                এই ধাপে তোমাকে available Piscine ব্যাচ গুলা দেখানো হবে। তুমি তোমার সুবিধা মতো যেকোনো একটা ব্যাচ পছন্দ করবা। অতঃপর 42 থেকে তোমাকে একটা রোল নম্বর দেওয়া হবে।
+                                তুমি যদি সরাসরি জার্মানিতে on-site piscine করতে চাও তাহলে এই রোল বা টোকেনটা দেখিয়ে তোমাকে নিশ্চিত করতে হবে তুমি continue করবা। তারপর আর কি piscine শুরু!
                             </p>
                         </div>
                     </div>
@@ -293,8 +294,13 @@ const AdmissionProcess = () => {
                             </div>
                         </div>
                         <div className="pt-1">
-                            <p className="mb-2 text-lg font-bold text-green-500">Success</p>
-                            <p className="text-gray-700" />
+                            <p className="mb-2 text-lg font-bold text-green-500">Success: <span className='text-white'>Back To School</span></p>
+                            <p className='text-green-500 text-justify'>
+                                তুমি যদি Piscine এ পাস করো। তাহলে তোমাকে 42 থেকে একটা সার্টিফিকেট দেওয়া হবে।
+                                এই সার্টিফিকেট দিয়ে তুমি ভিবিন্ন IT কোম্পানিতে ইন্টার্নশীপ এর জন্য আবেদন করতে পারবে এমন কি BMW, Google, Volkswagen ইত্যাদি কোম্পানিতে।
+                                যদি On-line piscine করো তাহলে বাংলাদেশ থেকেই এই সার্টিফিকেট দিয়ে ভিসার জন্য আবেদন করতে পারবা।
+                                আর ইন্টার্নশিপের কথা তো আগেই বললাম! তারপর তোমাদের স্বপ্নের যাত্রা শুরু!
+                            </p>
                         </div>
                     </div>
                 </div>
