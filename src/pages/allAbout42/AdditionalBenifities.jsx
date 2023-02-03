@@ -2,7 +2,7 @@ import React from 'react'
 
 const AdditionalBenifities = () => {
     return (
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
             {/* <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase sm:text-center">
           20 Nov 2020
         </p> */}
@@ -17,9 +17,14 @@ const AdditionalBenifities = () => {
                     </a>
                 </div>
                 <p className="text-base text-green-700 md:text-lg text-justify">
-                এই blog এ আমি তোমাদের আর কিছু সুবিধার কথা বলবো যা তোমরা 42 তে পড়লে পাবে। আগেই বলেছিলাম, 42 প্রোগ্রামিং স্কুল  সর্ব মোট ২৪ টি দেশে তাদের কার্যক্রম পরিচালনা করছে। 
-                ভালো খরব এই যে , তুমি যদি একবার piscine পাশ করো তখন তুমি 42 স্টুডেন্টশিপ পেয়ে যাবে ! 
-                তখন তুমি 42 যেকোনো ব্রাঞ্চ মানে <span className='text-red-500'>যে কোনো দেশে যেতে</span> পারবে ( আমেরিকা , ফ্রাঞ্চ , তরুস্ক , জাপান  ইত্যাদি ) । 42 তোমাকে <span className='text-red-500'>sponshorship</span> দিবে!
+                    এই blog এ আমি তোমাদের আর কিছু সুবিধার কথা বলবো যা তোমরা 42 তে পড়লে পাবে। আগেই বলেছিলাম, 42 প্রোগ্রামিং স্কুল  সর্ব মোট ২৪ টি দেশে তাদের কার্যক্রম পরিচালনা করছে।
+                    ভালো খরব এই যে , তুমি যদি একবার piscine পাশ করো তখন তুমি 42 স্টুডেন্টশিপ পেয়ে যাবে !
+                    তখন তুমি 42 যেকোনো ব্রাঞ্চ মানে <span className='text-red-500'>যে কোনো দেশে যেতে</span> পারবে ( আমেরিকা , ফ্রাঞ্চ , তরুস্ক , জাপান  ইত্যাদি )।
+                    42 তোমাকে <span className='text-red-500'>sponshorship</span> দিবে! 
+                    জার্মান কোনো ইউনিভার্সিটিতে পড়তে হলে <span className='text-white'>এক বছর বাংলাদেশে জার্মান অনুমোদিত ইউনিভার্সিটিতে পড়তে হবে</span>।  
+                    <span className='text-red-500'> তোমাকে IELTS এ ৬.৫ অথবা জার্মান B1 লেবেল কমপ্লিট করতে হবে। </span>
+                    কিন্তু তুমি যদি 42 প্রোগ্রামিং ইউনিভার্সিটিতে পড়ার সুযোগ পাও তাহলে তোমাকে <span className='text-red-500'>জার্মান ভাষা শিখতে হবে না</span>। <span className='text-white'> এক বছর ইউনিভার্সিটিতে পড়তে হবে না</span>। এতে তোমার <span className='text-red-500'>৩ লক্ষ</span> টাকার মতো বাঁচবে!
+                    কারন, জার্মান ভাষা শিখতে ১ লক্ষ ২০ হাজার টাকার বেশি লাগবে। এক বছর ইউনিভার্সিটিতে পড়তে ২ লক্ষ টাকার মতো লাগবে যদি ড্যাফোডিল, ব্র্যাক, আসানউল্লাহ তে পড়ো!
                 </p>
             </div>
             <div className="mb-10 sm:text-center">

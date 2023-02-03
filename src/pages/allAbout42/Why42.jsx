@@ -2,7 +2,7 @@ import React from 'react'
 
 const Why42 = () => {
     return (
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
             {/* <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase sm:text-center">
           20 Nov 2020
         </p> */}
@@ -18,7 +18,7 @@ const Why42 = () => {
                 </div>
                 <p className="text-base text-green-700 md:text-lg text-justify">
                     42 একদম ফ্রীতে তোমাকে একজন Software Engineer হওয়ার সুযোগ দিচ্ছে। প্রশ্ন হচ্ছে তাহলে 42 টাকা পাচ্ছে কোথায়? এটা কি সরকারি ?
-                    উত্তর হচ্ছে মোটেও সরকারি না ! আসলে জার্মানি কিছু বড় বড় কোম্পানি যেমনঃ Google, BMW, Volkswagen, Mercedes, Porsche, Audi, SAP অর্থায়ন করে।
+                    উত্তর হচ্ছে মোটেও সরকারি না ! আসলে জার্মানি কিছু বড় বড় কোম্পানি যেমনঃ <span className='text-white'>Google, BMW, Volkswagen, Mercedes, Porsche, Audi, SAP</span> অর্থায়ন করে।
                     প্রশ্ন হচ্ছে কেন তারা অর্থায়ন করে ? আচ্ছা আমি যদি বলি University বর্তমান প্রেক্ষাপটে অনেকটাই সেকেলে হয়ে গেছে তাহলে তোমাদের প্রতিক্রিয়া কি হবে?
                     আসলে এটা আমার কথা না। বরং Google, SAP সহ বড় বড় কোম্পানি গুলা এমন টা মনে করে ! <br/>
                     <span className='text-red-500'>"SAP removes university requirements"</span> <br/><span className='text-white' style={{"marginLeft":"50px"}}>Max Wessel, chief learning officer, SAP</span><br/>
@@ -27,10 +27,10 @@ const Why42 = () => {
                     প্রশ্ন হচ্ছে কেন বলছে? সত্যিটা হলো ইউনিভার্সিটি থেকে গ্রাডুয়েশন শেষ করা স্টুডেন্টরা আসলে সফটওয়্যার কোম্পানি গুলার Requirements পূরণ করতে পারে না। মনে করো,
                     গুগল একটা ওয়েব ডেভেলপার চায় যে <span className='text-red-500'>JavaScript , React , MongoDB , NodeJS</span> জানে। এখন এই জব এর জন্য যদি ইউনিভার্সিটি থেকে
                     গ্রাডুয়েশন করা স্টুডেন্ট apply করে তাহলে এই জব এ যেই টেকনোলজি গুলা চাওয়া হইছে যা উপরে উল্ল্যেখ করা হয়েছে সেই Requirements পূরণ করা সম্ভব না।
-                    কেন? কারণ, যদি তোমরা ইউনিভার্সিটি syllabus দেখো, জেনে থাকবে ইউনিভার্সিটি তে উপরের কোনো টেকনোলজি শিখানো হয় না। আবার IT
+                    কেন? কারণ, যদি তোমরা ইউনিভার্সিটি syllabus দেখো, জেনে থাকবে ইউনিভার্সিটি তে উপরের কোনো টেকনোলজি শেখানো হয় না। আবার IT Industry 
                     যত তাড়াতাড়ি change হয় তার সাথে পাল্লা দিয়ে ইউনিভার্সিটি syllabus পরিবর্তন করাও সম্ভব না।
-                    কারণ, এর সাথে অনেকের জীবিকা জড়ায়া আছে! এই জন্যই বড় বড় টেক কোম্পানি গুলা 42 মতো স্কুল এ অর্থায়ন করে যাতে এখন থেকে গ্রাজুয়েট হওয়া স্টুডেন্টরা তাদের Requirements পূরণ করতে পারে।
-                    তাহলে, একটা জিনিস তো পরিষ্কার যে, তুমি এখান থেকে সফটওয়্যার ইঞ্জিনিয়ার হলে <span className='text-red-500'>Google , SAP , BMW</span>  etc  কোম্পানি তে <span className='text-red-500'>জব</span> পাওয়ার <span className='text-red-500'>Possibility </span>বেশি।
+                    কারণ, এর সাথে অনেকের জীবিকা জড়ায়া আছে! এই জন্যই বড় বড় টেক কোম্পানি গুলা 42 মতো স্কুল এ অর্থায়ন করে যাতে এখান থেকে গ্রাজুয়েট হওয়া স্টুডেন্টরা তাদের Requirements পূরণ করতে পারে।
+                    তাহলে, একটা জিনিস তো পরিষ্কার যে, তুমি এখান থেকে সফটওয়্যার ইঞ্জিনিয়ার হলে <span className='text-red-500'>Google, SAP, BMW, Marcedes, Audi, Porsche</span>  etc  কোম্পানি তে <span className='text-red-500'>জব</span> পাওয়ার <span className='text-red-500'>Possibility </span>বেশি।
                     এখন তোমাদের মতো আমার মাথায় ও একটা প্রশ্ন ঘুরপাক খেয়েছিলো। সেটা হলো, 42 থেকে গ্রাজুয়েট হওয়া স্টুডেন্টরা কি সব পারে? উত্তর হচ্ছে হ্যা ! 
                     কিভাবে? কারণ, 42 তে স্টুডেন্টরা Real World Project Based লেখা পড়া করে।  এর মানে একটা batch এ যে projects গুলা শিখানো হয় অন্য batch এ 
                     একই projects করানো হয় না। কারণ, প্রতিটা কোর্স শেষ করার পর এই projects গুলা দিয়ে resume বানিয়ে বিভিন্ন IT কোম্পানি তে ঐ কোর্স এর উপর ৩-৬ মাসের জন্য  ইন্টার্নশি করতে হয় ! 

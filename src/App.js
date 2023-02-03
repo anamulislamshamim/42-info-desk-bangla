@@ -4,7 +4,7 @@ import router from './routes/UserRoutes';
 
 function App() {
   return (
-    <div className='bg-black'>
+    <div className='bg-black' style={{"minHeight":"100vh"}}>
         <RouterProvider router={ router } />
     </div>
   );

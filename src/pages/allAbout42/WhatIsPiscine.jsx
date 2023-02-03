@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhatIsPiscine = () => {
     return (
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
             {/* <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase sm:text-center">
           20 Nov 2020
         </p> */}
@@ -23,10 +23,10 @@ const WhatIsPiscine = () => {
                     coding girl  নাম একটা channel আছে। মেয়ে টা রাশিয়ান। এখন রাশিয়ার সব চেয়ে বড় IT কোম্পানি অথবা গুগল এর রাশিয়ান শাখা তে software engineer হিসাবে জব করতেছে। ওই চেনেল এ অনেক কিছু জানতে পারবা।
                     Piscine কেমন হয়। ৪ টা প্রজেক্ট ৪ সপ্তাহে কমপ্লিট করতে হবে। <span className='text-red-500'>Piscine কিন্তু মোটেও সহজ না। কারণ, পুরো Piscine টাই c programming দিয়ে হবে।</span> c programming কিছুটা কঠিন।
                     তবে চেষ্টা করলে আর Guide করার মতো কেউ থাকলে কোনো টেনশন নাই। সে জন্য তো আমি আছিই!
-                    একদম জিরো থেকে কোডিং শিখে ৪ টা প্রজেক্ট কমপ্লিট করা , টীম মেম্বার দের সাথে ইংলিশ এ কথা বলা, নিজেদের ভিতর সমন্বয় করে প্রজেক্ট কমপ্লিট করা  কিন্তু মোটেও সহজ কথা না।
-                    <span className='text-yellow-500'> সেই জন্যই আমি শুরু করতে যাচ্ছি Piscine preparation নাম একটা কোর্স।
+                    একদম জিরো থেকে কোডিং শিখে ৪ টা প্রজেক্ট কমপ্লিট করা, টীম মেম্বার দের সাথে ইংলিশ এ কথা বলা, নিজেদের ভিতর সমন্বয় করে প্রজেক্ট কমপ্লিট করা  কিন্তু মোটেও সহজ কথা না।
+                    <span className='text-yellow-500'> সে জন্যই আমি শুরু করতে যাচ্ছি Piscine preparation নামে একটা কোর্স।
                     এই কোর্স তোমাদের কে প্রোগ্রামিং (C programming ) বেসিক শিখানো হবে। তারপর Piscine মতো ১ মাসের একটা কোর্স করানো হবে। কোর্স চলার মধ্যেই এপ্লিকেশন করে ফেলবো।
-                    এক কথায়, application, Game , Piscine থেকে জার্মানি আসা প্রযন্ত সব কিছুতে হেল্প করা হবে। আমার মূল উদ্দেশ্য 42 বাংলাদেশ কমিউনিটি গঠন করা। 
+                    এক কথায়, application, Game, Piscine থেকে জার্মানি আসা পর্যন্ত সব কিছুতে হেল্প করা হবে। আমার মূল উদ্দেশ্য 42 বাংলাদেশ কমিউনিটি গঠন করা। 
                     আশা করি, একদিন তোমায় ৪২ পরিবারে দেখতে পাবো।</span>
                 </p>
             </div>

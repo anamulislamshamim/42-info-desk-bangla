@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Visa = () => {
+const Scholarship = () => {
     return (
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
             {/* <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase sm:text-center">
@@ -13,15 +13,15 @@ const Visa = () => {
                         aria-label="Article"
                         className="inline-block max-w-lg font-sans text-3xl font-extrabold leading-none tracking-tight text-white transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-4xl"
                     >
-                        Visa ?
+                        Scholarship ?
                     </a>
                 </div>
                 <p className="text-base text-green-700 md:text-lg text-justify">
-                    42 visa সাধারণত স্টুডেন্ট ভিসা ক্যাটাগরিতে পরে না। এর মানে ভিসার জন্য তোমায় <span className='text-red-500'>১-২ বছর অপেক্ষা করতে হবে না</span>। 
-                    তাহলে প্রশ্ন হচ্ছে কি type এর ভিসার জন্য এপলাই করবো ?
-                    আসলে তোমরা জার্মান embassy তে ট্রেনিং ভিসা ক্যাটেগরিতে এপলাই করবা।
-                    তোমাদের কাছে তো 42 মেম্বারশিপ এর সার্টিফিকেট থাকবেই। দুঃচিন্তার কারণ নাই। তাও ক্ষেত্র বিশেষ সময় কম-বেশি লাগতে পারে। এটা embassy তে এপ্লিকেশন এর পরিমান এর উপর নির্ভর করবে।
-                    মোটামুটি <span className='text-red-500'>৩-৫</span> মাস সময় লাগতে পারে।
+                তোমরা  ইতোমধ্যে জানো, 42 একটা <span className='text-red-500'>full free</span> প্রোগ্রামিং ইউনিভার্সিটি। একবার ভাবতো <span className='text-red-500'>UK , Australia, Canada</span> তে স্কলারশিপ বলতে কি বুঝায়? 
+                এই সব দেশে তুমি স্কলারশিপ পেলে হয়তো ৭০% বা ৮০% টিউশন ফী দিতে হয় না বাকি ২০% কিন্তু ঠিকই দিতে হবে। যাইহোক, আমাদের প্রত্যাশার তো শেষ নাই। 
+                তবে তোমাদের প্রত্যাশা কিন্তু সঠিক! <span className='text-white'>মানে স্কলারশিপ ও আছে!</span> কিন্তু সে ক্ষেত্রে তুমি যদি piscine পাস করো, তারপর ৩-৬ মাসের ইন্টার্নশীপ শেষ করে ফুল টাইম স্কুলে মনোযোগ দেও। 
+                তখন তুমি স্কলারশিপ এর জন্য আবেদন করতে পারবে। স্কলারশিপ পেলে <span className='text-red-500'>প্রতি মাসে ৬০০ ইউরো করে পাবা</span> ! কিন্তু আগেই তো বলছিলাম ইন্টার্নশীপ থেকে যা ইনকাম করবা তা দিয়ে অনায়েসে ১-২ বছর চলে যাবে ! 
+                তবে তুমি শুধু স্কলারশিপ উপর ভরসা করে সিদ্ধান্ত নিও না। এটা করা বোকামি হবে ! কারণ স্কলারশিপ এর আগে বহু পথ পারি দিতে হবে !
                 </p>
             </div>
             <div className="mb-10 sm:text-center">
@@ -56,5 +56,4 @@ const Visa = () => {
     );
 };
 
-
-export default Visa
+export default Scholarship
