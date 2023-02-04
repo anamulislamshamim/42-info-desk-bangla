@@ -1,57 +1,58 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const navigates = <>
         <li>
-            <a
-                href="/home"
+            <Link
+                to="/home"
                 aria-label="Our product"
                 title="In this home page you will get all information regarding to 42 programming school admission process."
                 class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-green-400"
             >
                 All Info
-            </a>
+            </Link>
         </li>
         <li>
-            <a
-                href="/admission"
+            <Link
+                to="/admission"
                 aria-label="Admission Process"
                 title="Admission process in step by step"
                 class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-green-400"
             >
                 Admission Process
-            </a>
+            </Link>
         </li>
         <li>
-            <a
-                href="/requirements"
+            <Link
+                to="/requirements"
                 aria-label="requirements"
                 title="Requirements Data"
                 class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-green-400"
             >
                 Requirements
-            </a>
+            </Link>
         </li>
         <li>
-            <a
-                href="/cost"
+            <Link
+                to="/cost"
                 aria-label="cost data"
                 title="Total Cost Related Data"
                 class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-green-400"
             >
                 Total Cost
-            </a>
+            </Link>
         </li>
         <li>
-            <a
-                href="/faq"
+            <Link
+                to="/faq"
                 aria-label="faq"
                 title="Some common questions that people frequently ask"
                 class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-green-400"
             >
                 Common Questions
-            </a>
+            </Link>
         </li>
     </>
     return (
@@ -74,14 +75,14 @@ export const Navbar = () => {
                     </ul>
                     <ul class="flex items-center hidden space-x-8 lg:flex">
                         <li>
-                            <a
-                                href="/course"
+                            <Link
+                                to="/course"
                                 class="inline-flex bg-blue-800 items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                 aria-label="42 preparation course for piscine"
                                 title="42 programming schools's preparation for piscine"
                             >
                                 Course
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                     <div class="lg:hidden">
@@ -138,14 +139,14 @@ export const Navbar = () => {
                                         <ul class="space-y-4">
                                             {navigates}
                                             <li>
-                                                <a
-                                                    href="/course"
+                                                <Link
+                                                    to="/course"
                                                     class="inline-flex bg-blue-800 items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                                     aria-label="42 preparation course for piscine"
                                                     title="42 programming schools's preparation for piscine"
                                                 >
                                                     Course
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </nav>
