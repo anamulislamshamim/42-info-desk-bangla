@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div className="relative" style={{ "z-index": "0" }}>
@@ -24,8 +24,8 @@ const Banner = () => {
                   <p className='text-orange-500 font-semibold'>No Tution fee</p>
                   <p className='text-orange-500 font-semibold'>Age &gt; 18</p>
                 </div>
-                <a
-                  href="/"
+                <Link
+                  to="/course"
                   aria-label=""
                   className="inline-flex mt-5 items-center font-semibold tracking-wider transition-colors duration-200 text-white bg-green-600 hover:text-red-500 p-2 rounded"
                 >
@@ -37,7 +37,7 @@ const Banner = () => {
                   >
                     <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="w-full max-w-xl xl:px-8 xl:w-8/12 bg-green-500">
