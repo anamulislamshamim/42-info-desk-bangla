@@ -67,7 +67,7 @@ export const Navbar = () => {
                     >
                         <img style={{ "width": "80px" }} src="https://biolibre.fr/media/cache/articleMainImg/images/articles/school_42.jpeg" alt="" />
                         <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-                            Info Desk Bangla
+                            Info Desk <span className='text-red-500'>বাংলা</span>
                         </span>
                     </a>
                     <ul class="flex items-center hidden space-x-8 lg:flex">

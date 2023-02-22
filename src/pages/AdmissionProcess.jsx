@@ -3,7 +3,7 @@ import React from 'react'
 const AdmissionProcess = () => {
     return (
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-            <h1 className='text-center text-red-500 pb-20' style={{"fontSize":"30px"}}>Admission Process</h1>
+            <h1 className='text-center text-red-500 pb-20' style={{ "fontSize": "30px" }}>Admission Process</h1>
             <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
                 <div className="lg:py-6 lg:pr-16">
                     <div className="flex">
@@ -296,10 +296,9 @@ const AdmissionProcess = () => {
                         <div className="pt-1">
                             <p className="mb-2 text-lg font-bold text-green-500">Success: <span className='text-white'>Back To School</span></p>
                             <p className='text-green-500 text-justify'>
-                                তুমি যদি Piscine এ পাস করো। তাহলে তোমাকে 42 থেকে একটা সার্টিফিকেট দেওয়া হবে।
-                                এই সার্টিফিকেট দিয়ে তুমি ভিবিন্ন IT কোম্পানিতে ইন্টার্নশীপ এর জন্য আবেদন করতে পারবে এমন কি BMW, Google, Volkswagen ইত্যাদি কোম্পানিতে।
-                                যদি On-line piscine করো তাহলে বাংলাদেশ থেকেই এই সার্টিফিকেট দিয়ে ভিসার জন্য আবেদন করতে পারবা।
-                                আর ইন্টার্নশিপের কথা তো আগেই বললাম! তারপর তোমাদের স্বপ্নের যাত্রা শুরু!
+                                তুমি যদি Piscine এ পাস করো তাহলে তোমার Admission Confirm হবে। তারপর তুমি 42 প্রোগ্রামিং ইউনিভার্সিটির স্টুডেন্টশিপ সার্টিফিকেট পেয়ে যাবে।
+                                এর মধ্যে দিয়ে তোমার Admission Process শেষ হলো। এবার তোমার স্বপ্নের প্রোগ্রামার হওয়ার যাত্রা শুরু। স্বাগতম তোমায়।
+                                তোমার প্রোগ্রামিং জীবন সুন্দর হোক। তোমার উপর আল্লাহ রহমত বর্ষিত হোক। দূয়া করি তুমি যেন তোমার বাবা-মায়ের মুখে হাসি ফুটাতে পারো।
                             </p>
                         </div>
                     </div>

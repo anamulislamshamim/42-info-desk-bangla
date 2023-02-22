@@ -14,7 +14,7 @@ const CourseBanner = () => {
                         <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-4/12">
                             <div>
                                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-                                    এই কোর্সে নিম্নলিখিত বিষয় গুলো complete করা হবে!{' '}
+                                    এই কোর্সে নিম্নলিখিত বিষয় গুলো COMPLETE করা হবে!{' '}
                                     {/* <span className="text-teal-accent-400">lazy dog</span> */}
                                 </h2>
                                 <div>
@@ -25,7 +25,7 @@ const CourseBanner = () => {
                                     <p className='text-orange-500 font-semibold'>5. Complete Full Application Process</p>
                                     <p className='text-orange-500 font-semibold'>6. বাংলাদেশ থেকে জার্মানি আসা পর্যন্ত A-Z কমপ্লিট করা হবে।</p>
                                     <p className='text-orange-500 font-semibold'>7. Hotel Booking</p>
-                                    <p className='text-green-500 font-semibold' style={{"fontSize":"50px"}}>Cost: 3500 €</p>
+                                    <p className='text-green-500 font-semibold' style={{"fontSize":"50px"}}>Cost: 4999 €</p>
                                 </div>
                                 {/* <a
                                     href="/"
