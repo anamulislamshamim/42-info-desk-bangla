@@ -81,7 +81,7 @@ export const Navbar = () => {
                                 aria-label="42 preparation course for piscine"
                                 title="42 programming schools's preparation for piscine"
                             >
-                                Course
+                                APPLY
                             </Link>
                         </li>
                     </ul>
@@ -116,7 +116,7 @@ export const Navbar = () => {
                                                 <img style={{ "width": "50px" }} src="https://biolibre.fr/media/cache/articleMainImg/images/articles/school_42.jpeg" alt="42 Banlga" />
                                             </a>
                                             <span class="ml-2 text-lg font-bold tracking-wide text-green-600 uppercase">
-                                                Info Desk Bangla
+                                                Info Desk <span className='text-red-500'>বাংলা</span>
                                             </span>
                                         </div>
                                         <div>
@@ -145,7 +145,7 @@ export const Navbar = () => {
                                                     aria-label="42 preparation course for piscine"
                                                     title="42 programming schools's preparation for piscine"
                                                 >
-                                                    Course
+                                                    APPLY
                                                 </Link>
                                             </li>
                                         </ul>

@@ -35,7 +35,7 @@ const Requirements = () => {
                                     aria-label=""
                                     className="inline-flex mt-5 items-center font-semibold tracking-wider transition-colors duration-200 text-white bg-blue-600 hover:text-red-500 p-2 rounded"
                                 >
-                                    Admission Preparaton Course
+                                    APPLY NOW
                                     <svg
                                         className="inline-block w-3 ml-2"
                                         fill="currentColor"

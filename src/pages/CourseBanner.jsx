@@ -27,12 +27,13 @@ const CourseBanner = () => {
                                     <p className='text-orange-500 font-semibold'>7. Hotel Booking</p>
                                     <p className='text-green-500 font-semibold' style={{"fontSize":"50px"}}>Cost: 4999 €</p>
                                 </div>
+                                <p className='text-red-500 text-lg'>কিভাবে APPLY করবে তা নিচে দেওয়া আছে ! নিচের দিকে একটু স্ক্রল করো !</p>
                                 {/* <a
-                                    href="/"
+                                    href="/course"
                                     aria-label=""
-                                    className="inline-flex mt-5 items-center font-semibold tracking-wider transition-colors duration-200 text-white bg-green-600 hover:text-red-500 p-2 rounded"
+                                    className="inline-flex mt-5 items-center font-semibold tracking-wider transition-colors duration-200 text-white bg-blue-600 hover:text-red-500 p-2 rounded"
                                 >
-                                    Admission Preparaton Course
+                                    APPLY NOW
                                     <svg
                                         className="inline-block w-3 ml-2"
                                         fill="currentColor"
