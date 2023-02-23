@@ -263,7 +263,7 @@ const TotalCost = () => {
                         <div className="pt-1 pb-8">
                             <p className="mb-2 text-lg font-bold text-red-500">7 নম্বর খরচ: <span className='text-white'>Piscine Preparation Course Cost !</span></p>
                             <p className="text-white text-justify">
-                                এই কোর্স এর জন্য তোমাকে ৩৫০০ ইউরো দিতে হবে। বিস্তারিত জানতে course পেজ এ দেখতে পারো।
+                                এই কোর্স এর জন্য তোমাকে 4999 ইউরো দিতে হবে। বিস্তারিত জানতে course পেজ এ দেখতে পারো।
                             </p>
                         </div>
                     </div>

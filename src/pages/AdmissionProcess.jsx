@@ -299,6 +299,22 @@ const AdmissionProcess = () => {
                                 তুমি যদি Piscine এ পাস করো তাহলে তোমার Admission Confirm হবে। তারপর তুমি 42 প্রোগ্রামিং ইউনিভার্সিটির স্টুডেন্টশিপ সার্টিফিকেট পেয়ে যাবে।
                                 এর মধ্যে দিয়ে তোমার Admission Process শেষ হলো। এবার তোমার স্বপ্নের প্রোগ্রামার হওয়ার যাত্রা শুরু। স্বাগতম তোমায়।
                                 তোমার প্রোগ্রামিং জীবন সুন্দর হোক। তোমার উপর আল্লাহ রহমত বর্ষিত হোক। দূয়া করি তুমি যেন তোমার বাবা-মায়ের মুখে হাসি ফুটাতে পারো।
+                                <p>
+                                    <a
+                                        href="/course"
+                                        aria-label=""
+                                        className="inline-flex mt-5 items-center font-semibold tracking-wider transition-colors duration-200 text-white bg-blue-600 hover:text-red-500 p-2 rounded"
+                                    >
+                                        APPLY NOW
+                                        <svg
+                                            className="inline-block w-3 ml-2"
+                                            fill="currentColor"
+                                            viewBox="0 0 12 12"
+                                        >
+                                            <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+                                        </svg>
+                                    </a>
+                                </p>
                             </p>
                         </div>
                     </div>

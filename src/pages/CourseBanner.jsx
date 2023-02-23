@@ -4,7 +4,7 @@ const CourseBanner = () => {
     return (
         <div className="relative" style={{ "z-index": "0" }}>
             <img
-                src="https://42berlin.de/wp-content/uploads/2021/08/379-HteDef-1024x682.jpg"
+                src="img-3.jpeg"
                 className="absolute inset-0 object-cover w-full h-full"
                 alt=""
             />
