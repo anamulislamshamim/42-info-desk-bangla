@@ -117,6 +117,22 @@ const Faq = () => {
                         ৭-১০ লক্ষ টাকার মতো। তবে একসাথে লাগবে না। বিস্তারিত জানতে Total Cost পেজে দেখতে পারো।
                     </Item>
                 </div>
+                <p>
+                    <a
+                        href="/course"
+                        aria-label=""
+                        className="inline-flex mt-5 items-center font-semibold tracking-wider transition-colors duration-200 text-white bg-blue-600 hover:text-red-500 p-2 rounded"
+                    >
+                        APPLY NOW
+                        <svg
+                            className="inline-block w-3 ml-2"
+                            fill="currentColor"
+                            viewBox="0 0 12 12"
+                        >
+                            <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+                        </svg>
+                    </a>
+                </p>
             </div>
         </div>
     );
