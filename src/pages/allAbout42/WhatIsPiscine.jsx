@@ -17,20 +17,36 @@ const WhatIsPiscine = () => {
                     </a>
                 </div>
                 <p className="text-base text-green-700 md:text-lg text-justify">
-                    Piscine <span className='text-red-500'>4 সপ্তাহের</span> একটা কোডিং বুটক্যাম্প। <span className='text-red-500'>Piscine শব্দটি একটা ফরাসি শব্দ। 
-                    এর অর্থ সুইমিং পুলে সাঁতার কাঁটা !</span> সাঁতার শিখতে হলে যেমন আমাদের নাকানিচুবানি খেতে হয় Piscine ঠিক তেমনি।
+                    Piscine <span className='text-red-500'>4 সপ্তাহের</span> একটা কোডিং বুটক্যাম্প। <span className='text-red-500'>Piscine শব্দটি একটা ফরাসি শব্দ।
+                        এর অর্থ সুইমিং পুলে সাঁতার কাঁটা !</span> সাঁতার শিখতে হলে যেমন আমাদের নাকানিচুবানি খেতে হয় Piscine ঠিক তেমনি।
                     এই একমাস তোমায় প্রতিদিন গড়ে <span className='text-red-500'>10-14 ঘন্টা</span> কোডিং করতে হবে। মানে তোমার রাত-দিন এক করে কোডিং করতে হবে।
-                    Piscine কেমন হতে পারে এমন ধারণা পেতে চাইলে তুমি YouTube এ "coding girl"  নাম একটা Channel আছে। মেয়ে টা রাশিয়ান। 
-                    এখন রাশিয়ার সব চেয়ে বড় IT কোম্পানি অথবা গুগল এর রাশিয়ান শাখাতে Software Engineer হিসাবে জব করতেছে। 
+                    Piscine কেমন হতে পারে এমন ধারণা পেতে চাইলে তুমি YouTube এ "coding girl"  নাম একটা Channel আছে। মেয়ে টা রাশিয়ান।
+                    এখন রাশিয়ার সব চেয়ে বড় IT কোম্পানি অথবা গুগল এর রাশিয়ান শাখাতে Software Engineer হিসাবে জব করতেছে।
                     ঐ Channel এ অনেক কিছু জানতে পারবা।
-                    Piscine কেমন হয়। 4 টা প্রজেক্ট 4 সপ্তাহে কমপ্লিট করতে হবে। <span className='text-red-500'>Piscine কিন্তু মোটেও সহজ না! কারন, 
-                    পুরো Piscine টাই C programming দিয়ে হবে।</span> C Programming কিছুটা কঠিন।
+                    Piscine কেমন হয়। 4 টা প্রজেক্ট 4 সপ্তাহে কমপ্লিট করতে হবে। <span className='text-red-500'>Piscine কিন্তু মোটেও সহজ না! কারন,
+                        পুরো Piscine টাই C programming দিয়ে হবে।</span> C Programming কিছুটা কঠিন।
                     তবে চেষ্টা করলে আর Guide করার মতো কেউ থাকলে কোনো টেনশন নাই। সে জন্য তো আমি আছিই!
                     একদম জিরো থেকে কোডিং শিখে 4 টা প্রজেক্ট কমপ্লিট করা, টীম মেম্বারদের সাথে English এ কথা বলা, নিজেদের ভিতর সমন্বয় করে প্রজেক্ট কমপ্লিট করা কিন্তু মোটেও সহজ কথা না।
-                    <span className='text-yellow-500'> সে জন্যই আমি শুরু করতে যাচ্ছি Piscine Preparation নামে একটা কোর্স। 
-                    এই কোর্স তোমাদের কে প্রোগ্রামিং ( C programming ) বেসিক শেখানো হবে। তারপর Piscine মতো ১ মাসের একটা কোর্স করানো হবে। কোর্স চলার মধ্যেই এপ্লিকেশন করে ফেলবো।
-                    এক কথায়, Application, Game, Piscine থেকে জার্মানি আসা পর্যন্ত সব কিছুতে হেল্প করা হবে। আমার মূল উদ্দেশ্য 42 Bangladesh Student Community গঠন করা। 
-                    আশা করি, একদিন তোমায় 42 পরিবারে দেখতে পাবো।</span>
+                    <span className='text-yellow-500'> সে জন্যই আমি শুরু করতে যাচ্ছি Piscine Preparation নামে একটা কোর্স।
+                        এই কোর্স তোমাদের কে প্রোগ্রামিং ( C programming ) বেসিক শেখানো হবে। তারপর Piscine মতো ১ মাসের একটা কোর্স করানো হবে। কোর্স চলার মধ্যেই এপ্লিকেশন করে ফেলবো।
+                        এক কথায়, Application, Game, Piscine থেকে জার্মানি আসা পর্যন্ত সব কিছুতে হেল্প করা হবে। আমার মূল উদ্দেশ্য 42 Bangladesh Student Community গঠন করা।
+                        আশা করি, একদিন তোমায় 42 পরিবারে দেখতে পাবো।</span>
+                    <p>
+                        <a
+                            href="/course"
+                            aria-label=""
+                            className="inline-flex mt-5 items-center font-semibold tracking-wider transition-colors duration-200 text-white bg-blue-600 hover:text-red-500 p-2 rounded"
+                        >
+                            APPLY NOW
+                            <svg
+                                className="inline-block w-3 ml-2"
+                                fill="currentColor"
+                                viewBox="0 0 12 12"
+                            >
+                                <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+                            </svg>
+                        </a>
+                    </p>
                 </p>
             </div>
             <div className="mb-10 sm:text-center">

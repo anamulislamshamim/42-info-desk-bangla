@@ -9,6 +9,7 @@ import DoAlone from './allAbout42/DoAlone';
 import Scholarship from './allAbout42/Scholarship';
 import Visa from './allAbout42/Visa';
 import WhatIsPiscine from './allAbout42/WhatIsPiscine';
+import WhoAmI from './allAbout42/WhoAmI';
 import WhoStudyAt42 from './allAbout42/WhoStudyAt42';
 import Why42 from './allAbout42/Why42';
 import Banner from './Banner';
@@ -29,6 +30,7 @@ export const Home = () => {
       <Course />
       <Block />
       <Scholarship />
+      <WhoAmI />
     </>
   );
 };
